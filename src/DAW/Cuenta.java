@@ -1,4 +1,4 @@
-package bytebank;
+package DAW;
 
 public class Cuenta {
 
@@ -6,6 +6,10 @@ public class Cuenta {
     private int agencia = 1;
     private int numero;
     private Cliente titular = new Cliente();
+
+    public Cuenta(double saldo) {
+        this.saldo = saldo;
+    }
 
     private static int total;
 
