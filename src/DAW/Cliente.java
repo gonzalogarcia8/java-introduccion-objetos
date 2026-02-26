@@ -1,5 +1,10 @@
 package DAW;
 
+/**
+ * Descripcion de la clase clionte
+ * @author Gonzalo
+ * @version 1.0
+ */
 public class Cliente {
 
     private String nombre;
